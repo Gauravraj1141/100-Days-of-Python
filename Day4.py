@@ -13,7 +13,23 @@ str.endswith(suffix): Returns True if the string ends with the specified suffix,
 str.find(substring): Returns the index of the first occurrence of the specified substring within the string, or -1 if the substring is not found.
 str.replace(old, new): Replaces all occurrences of the specified old string with the specified new string.
 str.split(delimiter): Splits the string into a list of substrings based on the specified delimiter.
-These are just some of the many string methods available in Python. For a complete list, you can refer to the official Python documentation.'''
+str.title(): Converts the first character of each word in a string to uppercase and all other characters to lowercase.
+str.strip(): Removes leading and trailing whitespace from a string.
+str.replace(old, new): Replaces all occurrences of a specified string with another string.
+str.split(delimiter): Splits a string into a list of substrings based on a specified delimiter.
+str.join(iterable): Joins the elements of an iterable (such as a list or tuple) into a string, using a specified separator.
+str.format(): Formats a string using placeholders and values provided as arguments.
+str.startswith(substring): Returns True if a string starts with a specified substring, or False otherwise.
+str.endswith(substring): Returns True if a string ends with a specified substring, or False otherwise.
+str.find(substring): Returns the index of the first occurrence of a specified substring in a string, or -1 if the substring is not found.
+str.index(substring): Returns the index of the first occurrence of a specified substring in a string, or raises a ValueError if the substring is not found.
+str.isalpha(): Returns True if a string contains only alphabetic characters, or False otherwise.
+str.isdigit(): Returns True if a string contains only digits, or False otherwise.
+str.islower(): Returns True if all the characters in a string are lowercase, or False otherwise.
+str.isupper(): Returns True if all the characters in a string are uppercase, or False otherwise.
+str.isspace(): Returns True if a string contains only whitespace characters, or False otherwise.
+str.istitle(): Returns True if a string is in title case (i.e., the first letter of each word is capitalized), or False otherwise.
+These are just some of the many string methods available in Python. To learn more about string methods and how to use them, you can refer to the Python documentation or try out some examples on your own..'''
 
 
 str = 'my nameis3423 gaurv rajput'
