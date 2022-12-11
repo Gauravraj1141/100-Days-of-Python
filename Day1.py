@@ -32,4 +32,13 @@ print(
 li[2])
 
 
+# a = 3
+# print(18%9)
+# print(18//9)
+# print(18**9)
+# print(18/9)
+# print(18+9)
+# print(18-9)
+
+
 
