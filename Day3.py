@@ -19,3 +19,6 @@ for i in ope:
 
 dd = 'erkeskjdflsv'
 print(set(dd))
+
+tp = list(dd)
+print(tp)
