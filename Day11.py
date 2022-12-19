@@ -63,12 +63,37 @@ a = time.time()
 #     # so this loop body will always run if condition true or not
 # }while(condition);
 
-# i =0
-# while(i<33):
-#     i = int(input("enter a number : "))
-#     print("hey this is a number and this line prints one time medtary then print this ")
-#     print("hekssdfa")
-#     continue
-#     print("this line print when condition will true ")
-#     break
-#
+
+
+# here we emulate do while loop
+
+
+'''
+str  = 'gaurav'
+count = 0
+
+while True:
+    print("this line first time wheather condition true or not ")
+    i = input("enter str : ").lower()
+    count += 1
+
+    if str == i:
+        break
+    elif str != i and count > 7:
+        break'''
+
+
+# here we use continue means if name will gaurav means correct then loop will run other wise it will break means continue will break iteration ye loop continue se laut jata h or firse loop chal jata h
+i = 0
+while True:
+    print("this line will be print ")
+    name = input("enter your name: ").lower()
+    i +=1
+    if name == "gaurav":
+        print("hey i found your name")
+        continue
+
+    break
+
+
+
