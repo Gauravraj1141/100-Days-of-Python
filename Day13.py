@@ -1,3 +1,5 @@
+import math
+
 def calculator(operation,digit1,digit2):
     if operation == "+":
         return digit1+digit2
@@ -12,7 +14,7 @@ def calculator(operation,digit1,digit2):
         return digit1*digit2
     elif operation == "/":
         if digit1>=digit2:
-            return digit1/digit2
+            return (digit1/digit2)
         elif digit2>=digit1:
             return  digit2/digit1
 
