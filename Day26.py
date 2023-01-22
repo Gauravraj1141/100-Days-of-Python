@@ -6,3 +6,8 @@ print(type(gaurav)) #<class 'dict'>
 
 gaurav2 = set()
 print(type(gaurav2)) #<class 'set'>
+
+
+
+rajput = str("nimatet")
+print(rajput)

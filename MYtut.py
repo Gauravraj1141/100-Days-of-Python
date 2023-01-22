@@ -1,5 +1,5 @@
 # class # @property @functionname.setter @functionname.deleter
-#
+
 # class user1:
 #     def __init__(self,fname,lname):
 #         self.fname = fname
@@ -44,6 +44,17 @@
 
 
 
+class Mharana:
+    def __int__(self,name):
+        self.name = name
+
+        print(self.name)
+    @property
+    def raj(self):
+        return self.name
+
+gr  = Mharana( )
+print(gr.name)
 
 
 
