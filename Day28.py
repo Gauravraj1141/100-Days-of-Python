@@ -12,6 +12,7 @@
 #
 #
 # func1()
+import copy
 
 #
 # def division(x,y):
@@ -53,18 +54,52 @@
 #
 #
 
+#
+# dc = dict(zip(['tokens', 'Notification'], [{'new_access_token': ''}, "Hellow World"]))
+# print(dc)
+# ip = {"access_token":"rakdsdfjlaskjf"}
+# dc['tokens']['new_access_token'] = "sldfjs"
+# print(dc)
+#
+# # some most commen thing in python dict with zip function
+# mydict = dict(zip(['name','email'],[{"firstname":"","lastname":""},"gaurav@gamil.com"]))
+# mydict["name"]["firstname"] = "Gaurav"
+# mydict["name"]["lastname"] = "Rajput"
+# print((mydict["name"]["firstname"]))
+#
+#
+# print(2%7)
 
-dc = dict(zip(['tokens', 'Notification'], [{'new_access_token': ''}, "Hellow World"]))
-print(dc)
-ip = {"access_token":"rakdsdfjlaskjf"}
-dc['tokens']['new_access_token'] = "sldfjs"
-print(dc)
 
-# some most commen thing in python dict with zip function
-mydict = dict(zip(['name','email'],[{"firstname":"","lastname":""},"gaurav@gamil.com"]))
-mydict["name"]["firstname"] = "Gaurav"
-mydict["name"]["lastname"] = "Rajput"
-print((mydict["name"]["firstname"]))
+# days = ("Mon","Tue","Wed","Thu","Fri","Sat","Sun")
+# print(days[5])
+
+
+# def solution(S, K):
+#     days = ("Mon","Tue","Wed","Thu","Fri","Sat","Sun")
+#     digit = K%7
+#     for day in days:
+#         if day == S:
+#             newdigit = days.index(day)+digit
+#             if newdigit > 7 :
+#                 return days[days.index(day)+digit-8]
+#             else:
+#                 return days[days.index(day)+digit]
+#
+# print(solution("Sat",99))
+
+
+
+
+a = {"raj":"raji","rank":44}
+print(type(a))
+data = copy.deepcopy(a)
+print(data.__dir__())
+print(type(data))
+
+
+
+
 
 
 
